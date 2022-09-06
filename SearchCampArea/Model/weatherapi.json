@@ -1,0 +1,56 @@
+{"coord":
+    {"lon":40.2,"lat":21.1},
+"weather":
+    [{"id":800,
+        "main":"Clear",
+        "description":"clear sky",
+        "icon":"01d"}],
+"base":"stations",
+"main":
+{"temp":308.48,"feels_like":305.86,"temp_min":308.48,"temp_max":308.48,"pressure":1006,"humidity":12,"sea_level":1006,"grnd_level":885},
+"visibility":10000,
+"wind":{"speed":6.7,"deg":309,"gust":6.11},
+"clouds":{"all":2},
+"dt":1656670044,
+"sys":
+    {"country":"SA",
+        "sunrise":1656643260,
+        "sunset":1656691483},
+"timezone":10800,
+"id":107968,
+"name":"Ta'if",
+"cod":200
+
+}
+
+{"coord":
+    {"lon":31.9,"lat":40.1},
+    "weather":
+    [{"id":800,
+        "main":"Clear",
+        "description":"clearsky",
+        "icon":"01d"}],
+    "base":"stations",
+    "main":
+    {"temp":297.45,
+        "feels_like":297.16,
+        "temp_min":297.45,
+        "temp_max":297.45,
+        "pressure":1014,
+        "humidity":47,
+        "sea_level":1014,
+        "grnd_level":952},
+    "visibility":10000,
+    "wind":
+    {"speed":1.08,
+        "deg":352,
+        "gust":2.54},
+    "clouds":{"all":0},
+    "dt":1656746888,
+    "sys":{"country":"TR",
+        "sunrise":1656728831,
+        "sunset":1656782718},
+    "timezone":10800,
+    "id":750637,
+    "name":"Beypazarı",
+    "cod":200}

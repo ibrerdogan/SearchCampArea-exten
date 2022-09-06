@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F022CAE285A0F3100D76209 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F022CAD285A0F3100D76209 /* UserManager.swift */; };
+		7F022CB0285A10B800D76209 /* BoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F022CAF285A10B700D76209 /* BoardingView.swift */; };
+		7F0471B52864B27200960792 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0471B42864B27200960792 /* CommentView.swift */; };
+		7F15EBE42869E47200A91597 /* SmallCampingAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15EBE32869E47200A91597 /* SmallCampingAreaView.swift */; };
+		7F15EBE72869E68B00A91597 /* HorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15EBE62869E68B00A91597 /* HorizontalView.swift */; };
+		7F17E605286EF8E000618C57 /* weatherapi.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F17E604286EF8E000618C57 /* weatherapi.json */; };
+		7F17E607286EF9D000618C57 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17E606286EF9D000618C57 /* WeatherModel.swift */; };
+		7F17E609286F351800618C57 /* CampDetailFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17E608286F351700618C57 /* CampDetailFormView.swift */; };
+		7F2AF565283D5D01000D7027 /* CampAreaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AF564283D5D01000D7027 /* CampAreaDetailView.swift */; };
+		7F2AF567283D6A4E000D7027 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AF566283D6A4D000D7027 /* ProfileView.swift */; };
+		7F2AF577283D6C0E000D7027 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2AF576283D6C0E000D7027 /* URLImage */; };
+		7F2AF579283D6C0E000D7027 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2AF578283D6C0E000D7027 /* URLImageStore */; };
+		7F555B902863300000F1C7FC /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F555B8F2863300000F1C7FC /* CheckBoxView.swift */; };
+		7F555B9228633C9300F1C7FC /* AddCampingAreaFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F555B9128633C9300F1C7FC /* AddCampingAreaFormView.swift */; };
+		7F59A2CD286B4CED0013D777 /* CommentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59A2CC286B4CEC0013D777 /* CommentScreen.swift */; };
+		7F702F9F2865C711000BAED7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F702F9E2865C711000BAED7 /* MainView.swift */; };
+		7F79ABEB285A028E00CEF8E9 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79ABEA285A028E00CEF8E9 /* Comments.swift */; };
+		7F79ABED285A031300CEF8E9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79ABEC285A031300CEF8E9 /* User.swift */; };
+		7F86A1FA2865CE3F00DA12EF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86A1F92865CE3F00DA12EF /* ImagePicker.swift */; };
+		7F86A2022865E02900DA12EF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2012865E02900DA12EF /* FirebaseAuth */; };
+		7F86A2042865E02900DA12EF /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2032865E02900DA12EF /* FirebaseAuthCombine-Community */; };
+		7F86A2062865E02900DA12EF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2052865E02900DA12EF /* FirebaseDatabase */; };
+		7F86A2082865E02900DA12EF /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2072865E02900DA12EF /* FirebaseDatabaseSwift */; };
+		7F86A20A2865E02900DA12EF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2092865E02900DA12EF /* FirebaseFirestore */; };
+		7F86A20C2865E02900DA12EF /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A20B2865E02900DA12EF /* FirebaseFirestoreCombine-Community */; };
+		7F86A20E2865E02900DA12EF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A20D2865E02900DA12EF /* FirebaseFirestoreSwift */; };
+		7F86A2102865E02900DA12EF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A20F2865E02900DA12EF /* FirebaseStorage */; };
+		7F86A2122865E02900DA12EF /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7F86A2112865E02900DA12EF /* FirebaseStorageCombine-Community */; };
+		7F98068828C7336300F10AF0 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98068728C7336300F10AF0 /* Modifiers.swift */; };
+		7F98068A28C733C900F10AF0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98068928C733C900F10AF0 /* Extensions.swift */; };
+		7FA2777B283BFEB60085C37A /* SearchCampAreaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2777A283BFEB60085C37A /* SearchCampAreaApp.swift */; };
+		7FA2777D283BFEB60085C37A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2777C283BFEB60085C37A /* ContentView.swift */; };
+		7FA2777F283BFEB90085C37A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA2777E283BFEB90085C37A /* Assets.xcassets */; };
+		7FA27782283BFEB90085C37A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA27781283BFEB90085C37A /* Preview Assets.xcassets */; };
+		7FA27789283BFF2A0085C37A /* SearchMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA27788283BFF2A0085C37A /* SearchMap.swift */; };
+		7FA2778B283C03590085C37A /* CampingAreaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2778A283C03590085C37A /* CampingAreaManager.swift */; };
+		7FA2778D283C03760085C37A /* CampingAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2778C283C03760085C37A /* CampingAreaModel.swift */; };
+		7FA2778F283C17DC0085C37A /* CampMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2778E283C17DC0085C37A /* CampMarker.swift */; };
+		7FCCBAA9285A2A44008E2681 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCBAA8285A2A44008E2681 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F022CAD285A0F3100D76209 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7F022CAF285A10B700D76209 /* BoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingView.swift; sourceTree = "<group>"; };
+		7F0471B42864B27200960792 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		7F15EBE32869E47200A91597 /* SmallCampingAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCampingAreaView.swift; sourceTree = "<group>"; };
+		7F15EBE62869E68B00A91597 /* HorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalView.swift; sourceTree = "<group>"; };
+		7F17E604286EF8E000618C57 /* weatherapi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherapi.json; sourceTree = "<group>"; };
+		7F17E606286EF9D000618C57 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		7F17E608286F351700618C57 /* CampDetailFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampDetailFormView.swift; sourceTree = "<group>"; };
+		7F2AF564283D5D01000D7027 /* CampAreaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampAreaDetailView.swift; sourceTree = "<group>"; };
+		7F2AF566283D6A4D000D7027 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7F555B8F2863300000F1C7FC /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		7F555B9128633C9300F1C7FC /* AddCampingAreaFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCampingAreaFormView.swift; sourceTree = "<group>"; };
+		7F59A2CC286B4CEC0013D777 /* CommentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentScreen.swift; sourceTree = "<group>"; };
+		7F702F9E2865C711000BAED7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F79ABEA285A028E00CEF8E9 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		7F79ABEC285A031300CEF8E9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F86A1F92865CE3F00DA12EF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7F98068728C7336300F10AF0 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		7F98068928C733C900F10AF0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FA27777283BFEB60085C37A /* SearchCampArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchCampArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA2777A283BFEB60085C37A /* SearchCampAreaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCampAreaApp.swift; sourceTree = "<group>"; };
+		7FA2777C283BFEB60085C37A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FA2777E283BFEB90085C37A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FA27781283BFEB90085C37A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FA27788283BFF2A0085C37A /* SearchMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMap.swift; sourceTree = "<group>"; };
+		7FA2778A283C03590085C37A /* CampingAreaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingAreaManager.swift; sourceTree = "<group>"; };
+		7FA2778C283C03760085C37A /* CampingAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingAreaModel.swift; sourceTree = "<group>"; };
+		7FA2778E283C17DC0085C37A /* CampMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampMarker.swift; sourceTree = "<group>"; };
+		7FCCBAA8285A2A44008E2681 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FD5EBDC286DEADB00A9B3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA27774283BFEB60085C37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F86A2122865E02900DA12EF /* FirebaseStorageCombine-Community in Frameworks */,
+				7F86A2082865E02900DA12EF /* FirebaseDatabaseSwift in Frameworks */,
+				7F86A20C2865E02900DA12EF /* FirebaseFirestoreCombine-Community in Frameworks */,
+				7F86A2062865E02900DA12EF /* FirebaseDatabase in Frameworks */,
+				7F86A2102865E02900DA12EF /* FirebaseStorage in Frameworks */,
+				7F2AF579283D6C0E000D7027 /* URLImageStore in Frameworks */,
+				7F86A2022865E02900DA12EF /* FirebaseAuth in Frameworks */,
+				7F2AF577283D6C0E000D7027 /* URLImage in Frameworks */,
+				7F86A2042865E02900DA12EF /* FirebaseAuthCombine-Community in Frameworks */,
+				7F86A20A2865E02900DA12EF /* FirebaseFirestore in Frameworks */,
+				7F86A20E2865E02900DA12EF /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F702F9C2865ADB9000BAED7 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				7F2AF564283D5D01000D7027 /* CampAreaDetailView.swift */,
+				7F86A1F92865CE3F00DA12EF /* ImagePicker.swift */,
+				7F555B9128633C9300F1C7FC /* AddCampingAreaFormView.swift */,
+				7FA2778E283C17DC0085C37A /* CampMarker.swift */,
+				7F555B8F2863300000F1C7FC /* CheckBoxView.swift */,
+				7F0471B42864B27200960792 /* CommentView.swift */,
+				7F15EBE32869E47200A91597 /* SmallCampingAreaView.swift */,
+				7F15EBE62869E68B00A91597 /* HorizontalView.swift */,
+				7F59A2CC286B4CEC0013D777 /* CommentScreen.swift */,
+				7F17E608286F351700618C57 /* CampDetailFormView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		7F702F9D2865ADCF000BAED7 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				7F022CAF285A10B700D76209 /* BoardingView.swift */,
+				7FA27788283BFF2A0085C37A /* SearchMap.swift */,
+				7F2AF566283D6A4D000D7027 /* ProfileView.swift */,
+				7F702F9E2865C711000BAED7 /* MainView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		7F79ABE7285A020F00CEF8E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FA2778C283C03760085C37A /* CampingAreaModel.swift */,
+				7F79ABEA285A028E00CEF8E9 /* Comments.swift */,
+				7F79ABEC285A031300CEF8E9 /* User.swift */,
+				7F17E604286EF8E000618C57 /* weatherapi.json */,
+				7F17E606286EF9D000618C57 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F79ABE8285A021500CEF8E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F702F9D2865ADCF000BAED7 /* MainViews */,
+				7F702F9C2865ADB9000BAED7 /* SubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F79ABE9285A021900CEF8E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FA2778A283C03590085C37A /* CampingAreaManager.swift */,
+				7F022CAD285A0F3100D76209 /* UserManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F98068628C731F400F10AF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F98068728C7336300F10AF0 /* Modifiers.swift */,
+				7F98068928C733C900F10AF0 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7FA2776E283BFEB60085C37A = {
+			isa = PBXGroup;
+			children = (
+				7FA27779283BFEB60085C37A /* SearchCampArea */,
+				7FA27778283BFEB60085C37A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA27778283BFEB60085C37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA27777283BFEB60085C37A /* SearchCampArea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA27779283BFEB60085C37A /* SearchCampArea */ = {
+			isa = PBXGroup;
+			children = (
+				7F98068628C731F400F10AF0 /* Extensions */,
+				7FD5EBDC286DEADB00A9B3ED /* Info.plist */,
+				7FCCBAA8285A2A44008E2681 /* GoogleService-Info.plist */,
+				7F79ABE9285A021900CEF8E9 /* ViewModel */,
+				7F79ABE8285A021500CEF8E9 /* View */,
+				7F79ABE7285A020F00CEF8E9 /* Model */,
+				7FA2777A283BFEB60085C37A /* SearchCampAreaApp.swift */,
+				7FA2777C283BFEB60085C37A /* ContentView.swift */,
+				7FA2777E283BFEB90085C37A /* Assets.xcassets */,
+				7FA27780283BFEB90085C37A /* Preview Content */,
+			);
+			path = SearchCampArea;
+			sourceTree = "<group>";
+		};
+		7FA27780283BFEB90085C37A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FA27781283BFEB90085C37A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA27776283BFEB60085C37A /* SearchCampArea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA27785283BFEB90085C37A /* Build configuration list for PBXNativeTarget "SearchCampArea" */;
+			buildPhases = (
+				7FA27773283BFEB60085C37A /* Sources */,
+				7FA27774283BFEB60085C37A /* Frameworks */,
+				7FA27775283BFEB60085C37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchCampArea;
+			packageProductDependencies = (
+				7F2AF576283D6C0E000D7027 /* URLImage */,
+				7F2AF578283D6C0E000D7027 /* URLImageStore */,
+				7F86A2012865E02900DA12EF /* FirebaseAuth */,
+				7F86A2032865E02900DA12EF /* FirebaseAuthCombine-Community */,
+				7F86A2052865E02900DA12EF /* FirebaseDatabase */,
+				7F86A2072865E02900DA12EF /* FirebaseDatabaseSwift */,
+				7F86A2092865E02900DA12EF /* FirebaseFirestore */,
+				7F86A20B2865E02900DA12EF /* FirebaseFirestoreCombine-Community */,
+				7F86A20D2865E02900DA12EF /* FirebaseFirestoreSwift */,
+				7F86A20F2865E02900DA12EF /* FirebaseStorage */,
+				7F86A2112865E02900DA12EF /* FirebaseStorageCombine-Community */,
+			);
+			productName = SearchCampArea;
+			productReference = 7FA27777283BFEB60085C37A /* SearchCampArea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA2776F283BFEB60085C37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7FA27776283BFEB60085C37A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 7FA27772283BFEB60085C37A /* Build configuration list for PBXProject "SearchCampArea" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FA2776E283BFEB60085C37A;
+			packageReferences = (
+				7F2AF575283D6C0E000D7027 /* XCRemoteSwiftPackageReference "url-image" */,
+				7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7FA27778283BFEB60085C37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA27776283BFEB60085C37A /* SearchCampArea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA27775283BFEB60085C37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA27782283BFEB90085C37A /* Preview Assets.xcassets in Resources */,
+				7F17E605286EF8E000618C57 /* weatherapi.json in Resources */,
+				7FA2777F283BFEB90085C37A /* Assets.xcassets in Resources */,
+				7FCCBAA9285A2A44008E2681 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA27773283BFEB60085C37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2AF567283D6A4E000D7027 /* ProfileView.swift in Sources */,
+				7FA2778F283C17DC0085C37A /* CampMarker.swift in Sources */,
+				7F79ABEB285A028E00CEF8E9 /* Comments.swift in Sources */,
+				7F86A1FA2865CE3F00DA12EF /* ImagePicker.swift in Sources */,
+				7F555B9228633C9300F1C7FC /* AddCampingAreaFormView.swift in Sources */,
+				7FA27789283BFF2A0085C37A /* SearchMap.swift in Sources */,
+				7FA2778D283C03760085C37A /* CampingAreaModel.swift in Sources */,
+				7FA2777D283BFEB60085C37A /* ContentView.swift in Sources */,
+				7F555B902863300000F1C7FC /* CheckBoxView.swift in Sources */,
+				7F59A2CD286B4CED0013D777 /* CommentScreen.swift in Sources */,
+				7F17E609286F351800618C57 /* CampDetailFormView.swift in Sources */,
+				7F17E607286EF9D000618C57 /* WeatherModel.swift in Sources */,
+				7F022CB0285A10B800D76209 /* BoardingView.swift in Sources */,
+				7F0471B52864B27200960792 /* CommentView.swift in Sources */,
+				7F98068828C7336300F10AF0 /* Modifiers.swift in Sources */,
+				7F15EBE72869E68B00A91597 /* HorizontalView.swift in Sources */,
+				7F702F9F2865C711000BAED7 /* MainView.swift in Sources */,
+				7F2AF565283D5D01000D7027 /* CampAreaDetailView.swift in Sources */,
+				7FA2778B283C03590085C37A /* CampingAreaManager.swift in Sources */,
+				7F98068A28C733C900F10AF0 /* Extensions.swift in Sources */,
+				7F79ABED285A031300CEF8E9 /* User.swift in Sources */,
+				7F022CAE285A0F3100D76209 /* UserManager.swift in Sources */,
+				7FA2777B283BFEB60085C37A /* SearchCampAreaApp.swift in Sources */,
+				7F15EBE42869E47200A91597 /* SmallCampingAreaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FA27783283BFEB90085C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FA27784283BFEB90085C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA27786283BFEB90085C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SearchCampArea/Preview Content\"";
+				DEVELOPMENT_TEAM = PG9S8XJGY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SearchCampArea/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumu kullanak kanka";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Location;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumu kullanmak istiyor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ibrahim.SearchCampArea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FA27787283BFEB90085C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SearchCampArea/Preview Content\"";
+				DEVELOPMENT_TEAM = PG9S8XJGY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SearchCampArea/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumu kullanak kanka";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Location;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumu kullanmak istiyor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ibrahim.SearchCampArea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA27772283BFEB60085C37A /* Build configuration list for PBXProject "SearchCampArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA27783283BFEB90085C37A /* Debug */,
+				7FA27784283BFEB90085C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA27785283BFEB90085C37A /* Build configuration list for PBXNativeTarget "SearchCampArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA27786283BFEB90085C37A /* Debug */,
+				7FA27787283BFEB90085C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F2AF575283D6C0E000D7027 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.1;
+			};
+		};
+		7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F2AF576283D6C0E000D7027 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2AF575283D6C0E000D7027 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		7F2AF578283D6C0E000D7027 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2AF575283D6C0E000D7027 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		7F86A2012865E02900DA12EF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7F86A2032865E02900DA12EF /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		7F86A2052865E02900DA12EF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7F86A2072865E02900DA12EF /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		7F86A2092865E02900DA12EF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7F86A20B2865E02900DA12EF /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		7F86A20D2865E02900DA12EF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		7F86A20F2865E02900DA12EF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7F86A2112865E02900DA12EF /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F86A2002865E02900DA12EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7FA2776F283BFEB60085C37A /* Project object */;
+}
